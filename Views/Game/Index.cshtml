@@ -1,0 +1,31 @@
+@model IEnumerable<TextBasedGameMaker.Models.Game.Room>
+@{
+    ViewData["Title"] = "Text-Based Game Maker";
+}
+
+<h2>Rooms</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BriefDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FullDescription)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model){
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelitem => item.BriefDescription)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelitem => item.FullDescription)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

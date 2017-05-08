@@ -1,0 +1,10 @@
+/home/mirek/Projects/TextBasedGameMaker/bin/Debug/netcoreapp1.1/TextBasedGameMaker.db
+/home/mirek/Projects/TextBasedGameMaker/bin/Debug/netcoreapp1.1/TextBasedGameMaker.deps.json
+/home/mirek/Projects/TextBasedGameMaker/bin/Debug/netcoreapp1.1/TextBasedGameMaker.runtimeconfig.json
+/home/mirek/Projects/TextBasedGameMaker/bin/Debug/netcoreapp1.1/TextBasedGameMaker.runtimeconfig.dev.json
+/home/mirek/Projects/TextBasedGameMaker/bin/Debug/netcoreapp1.1/TextBasedGameMaker.dll
+/home/mirek/Projects/TextBasedGameMaker/bin/Debug/netcoreapp1.1/TextBasedGameMaker.pdb
+/home/mirek/Projects/TextBasedGameMaker/obj/Debug/netcoreapp1.1/UserSecretsAssemblyInfo.cs
+/home/mirek/Projects/TextBasedGameMaker/obj/Debug/netcoreapp1.1/TextBasedGameMaker.AssemblyInfo.cs
+/home/mirek/Projects/TextBasedGameMaker/obj/Debug/netcoreapp1.1/TextBasedGameMaker.dll
+/home/mirek/Projects/TextBasedGameMaker/obj/Debug/netcoreapp1.1/TextBasedGameMaker.pdb
