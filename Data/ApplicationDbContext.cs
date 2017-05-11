@@ -17,6 +17,9 @@ namespace TextBasedGameMaker.Data
         }
 
         public DbSet<Room> Rooms { get; set; }
+        public DbSet<GameProject> GameProjects { get; set; }
+
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -26,6 +29,8 @@ namespace TextBasedGameMaker.Data
             // Add your customizations after calling base.OnModelCreating(builder);
 
             builder.Entity<Room>().ToTable("Room");
+            builder.Entity<GameProject>().ToTable("GameProject");
+            builder.Entity<ApplicationUser>().ToTable("ApplicationUser");
         }
     }
 }   
